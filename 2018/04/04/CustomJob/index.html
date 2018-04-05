@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    
+    <title>패턴분석 | Mikkeller Script</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+        <meta name="keywords" content="" />
+    
+    <meta name="description" content="패턴분석공고 노출양 절대적으로 양도 부족하고, 이중에서도 근무할 수 있는 시간대나 이런 것도 맞지 않고, 중복되는 같은 아르바이트인데 지역만 다르게 되어있는 것들이 있어서 조금 어려운 부분이 있었다. 알바몬이 공고양이 더 많다, 그래서 돈이 급하다 싶으면 알바몬을 본다. 전체적인 공고양은 많이 나왔다고 생각되지만 이미 지난게 나와있고 구할 수 있는 건 거의">
+<meta name="keywords" content="javascript, script, work, front-end">
+<meta property="og:type" content="article">
+<meta property="og:title" content="패턴분석">
+<meta property="og:url" content="http://mikkeller.github.io/2018/04/04/CustomJob/index.html">
+<meta property="og:site_name" content="Mikkeller Script">
+<meta property="og:description" content="패턴분석공고 노출양 절대적으로 양도 부족하고, 이중에서도 근무할 수 있는 시간대나 이런 것도 맞지 않고, 중복되는 같은 아르바이트인데 지역만 다르게 되어있는 것들이 있어서 조금 어려운 부분이 있었다. 알바몬이 공고양이 더 많다, 그래서 돈이 급하다 싶으면 알바몬을 본다. 전체적인 공고양은 많이 나왔다고 생각되지만 이미 지난게 나와있고 구할 수 있는 건 거의">
+<meta property="og:locale" content="en">
+<meta property="og:updated_time" content="2018-04-05T01:07:37.485Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="패턴분석">
+<meta name="twitter:description" content="패턴분석공고 노출양 절대적으로 양도 부족하고, 이중에서도 근무할 수 있는 시간대나 이런 것도 맞지 않고, 중복되는 같은 아르바이트인데 지역만 다르게 되어있는 것들이 있어서 조금 어려운 부분이 있었다. 알바몬이 공고양이 더 많다, 그래서 돈이 급하다 싶으면 알바몬을 본다. 전체적인 공고양은 많이 나왔다고 생각되지만 이미 지난게 나와있고 구할 수 있는 건 거의">
+    
+
+    
+
+    
+
+    <link rel="stylesheet" href="/libs/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/libs/titillium-web/styles.css">
+    <link rel="stylesheet" href="/libs/source-code-pro/styles.css">
+
+    <link rel="stylesheet" href="/css/style.css">
+
+    <script src="/libs/jquery/2.0.3/jquery.min.js"></script>
+    
+    
+        <link rel="stylesheet" href="/libs/lightgallery/css/lightgallery.min.css">
+    
+    
+        <link rel="stylesheet" href="/libs/justified-gallery/justifiedGallery.min.css">
+    
+    
+    
+
+
+</head>
+
+<body>
+    <div id="wrap">
+        <header id="header">
+    <div id="header-outer" class="outer">
+        <div class="container">
+            <div class="container-inner">
+                <div id="header-title">
+                    <h1 class="logo-wrap">
+                        <a href="/" class="logo"></a>
+                    </h1>
+                    
+                        <h2 class="subtitle-wrap">
+                            <p class="subtitle">행복을 찾아서-</p>
+                        </h2>
+                    
+                </div>
+                <div id="header-inner" class="nav-container">
+                    <a id="main-nav-toggle" class="nav-icon fa fa-bars"></a>
+                    <div class="nav-container-inner">
+                        <ul id="main-nav">
+                            
+                                <li class="main-nav-list-item" >
+                                    <a class="main-nav-list-link" href="/">Mikkeller</a>
+                                </li>
+                            
+                                <li class="main-nav-list-item" >
+                                    <a class="main-nav-list-link" href="https://about.me/myeongwook/getstarted">Aboue Me</a>
+                                </li>
+                            
+                                        
+                                    
+                                <li class="main-nav-list-item" >
+                                    <a class="main-nav-list-link" href="/">About</a>
+                                </li>
+                            
+                        </ul>
+                        <nav id="sub-nav">
+                            <div id="search-form-wrap">
+
+    <form class="search-form">
+        <input type="text" class="ins-search-input search-form-input" placeholder="Search" />
+        <button type="submit" class="search-form-submit"></button>
+    </form>
+    <div class="ins-search">
+    <div class="ins-search-mask"></div>
+    <div class="ins-search-container">
+        <div class="ins-input-wrapper">
+            <input type="text" class="ins-search-input" placeholder="Type something..." />
+            <span class="ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
+        </div>
+        <div class="ins-section-wrapper">
+            <div class="ins-section-container"></div>
+        </div>
+    </div>
+</div>
+<script>
+(function (window) {
+    var INSIGHT_CONFIG = {
+        TRANSLATION: {
+            POSTS: 'Posts',
+            PAGES: 'Pages',
+            CATEGORIES: 'Categories',
+            TAGS: 'Tags',
+            UNTITLED: '(Untitled)',
+        },
+        ROOT_URL: '/',
+        CONTENT_URL: '/content.json',
+    };
+    window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+})(window);
+</script>
+<script src="/js/insight.js"></script>
+
+</div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+        <div class="container">
+            <div class="main-body container-inner">
+                <div class="main-body-inner">
+                    <section id="main">
+                        <div class="main-body-header">
+    <h1 class="header">
+    
+    uncategorized
+    </h1>
+</div>
+                        <div class="main-body-content">
+                            <article id="post-CustomJob" class="article article-single article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+            <header class="article-header">
+                
+    
+        <h1 class="article-title" itemprop="name">
+        패턴분석
+        </h1>
+    
+
+            </header>
+        
+        
+            <div class="article-meta">
+                
+    <div class="article-date">
+        <a href="/2018/04/04/CustomJob/" class="article-date">
+            <time datetime="2018-04-04T04:00:00.000Z" itemprop="datePublished">2018-04-04</time>
+        </a>
+    </div>
+
+                
+            </div>
+        
+        
+        <div class="article-entry" itemprop="articleBody">
+            <h1 id="패턴분석"><a href="#패턴분석" class="headerlink" title="패턴분석"></a>패턴분석</h1><h2 id="공고-노출양"><a href="#공고-노출양" class="headerlink" title="공고 노출양"></a>공고 노출양</h2><ol>
+<li>절대적으로 양도 부족하고, 이중에서도 근무할 수 있는 시간대나 이런 것도 맞지 않고, 중복되는 같은 아르바이트인데 지역만 다르게 되어있는 것들이 있어서 조금 어려운 부분이 있었다.</li>
+<li>알바몬이 공고양이 더 많다, 그래서 돈이 급하다 싶으면 알바몬을 본다.</li>
+<li>전체적인 공고양은 많이 나왔다고 생각되지만 이미 지난게 나와있고 구할 수 있는 건 거의 없어서 아쉬웠다.</li>
+</ol>
+<h2 id="맞춤알바-패턴"><a href="#맞춤알바-패턴" class="headerlink" title="맞춤알바 패턴"></a>맞춤알바 패턴</h2><ol>
+<li>지역과 성별을 선택한다. 다른 조건들은 아예 설정 하지 않는다.<br>지역은 일단 거리가 멀면 당연히 일을 할 수가 없으니 설정하는 거고, 성별은 은근히 여성들만 구하는 알바가 많아서 선택한다.<br>성별을 선택하면 여자만 구하는 알바는 절대 안나오게 되니까, 그래서 설정하면 정확도가 높아지기 때문에 이 부분에 대해서는 편했다.<br>지역과 성별이 가장 노출되는 공고가 정확하다고 생각이 됐다고 한다.</li>
+<li>품질보다는 양을 보려고 서울 전체로 설정을 한다.</li>
+<li>다 선택하는게 귀찮아서 맞춤알바는 거의 안쓴다. 일단 가능한 모든 옵션을 크게 입력을 해 놓는 편이라서 맞춤알바는 자신한테 조금 불편한 것 같다. 맞춤알바는 내 자신이 원하는 것을 좀 간추려서 보여주겠다는게 목적인데, 개인적으로는 이런거는 선호하는 편이 아니라서 차라리 정보가 많은 상태에서 자신이 고르는 게 더 좋다고 한다.(디테일보다는 양이 많은 것이 좋다고 생각하는 듯)</li>
+</ol>
+<h2 id="추천서비스에-대한-생각"><a href="#추천서비스에-대한-생각" class="headerlink" title="추천서비스에 대한 생각"></a>추천서비스에 대한 생각</h2><ol>
+<li><strong class="post-strong">&lt;공통&gt;</strong> 단기알바, 맞춤알바 이런 탭들이 많아서 좋을 수도 있겠지만 이걸 하나하나 단기알바 따로 보고, 교육강사 검색해서 따로 보고 이랬을 때 한 번 봤던 겹치는 공고들은 안나오게해서 중복되는 걸 줄여준다던가 그런 부분이 필요한 것 같다.<br>검색해서 봤던 공고를 단기알바로 봤을 때 내가 봤던 공고가 또 상위에서 보여지면 그만큼 시간낭비가 있기 때문에 내가 스크랩 해놓은 것도 목록에 같이 보인다. 그런것들은 차라리 사라진 채 다른 공고들만 보여지거나 이렇게 해서 페이지 수도 줄고 같은시간에 더 많은 공고들을 볼 수 있고 그런 기능이 좋지 않을까?</li>
+<li><strong class="post-strong">&lt;알바ForU&gt;</strong> 알바ForU -&gt; 맞춤알바 -&gt; 전체 검색 으로 이용을 한다.<br>알바ForU(알바몬의 스마트알바)를 먼저 사용하는 이유는 올라오는 수는 적지만 지원한 거 바탕으로 최대한 비슷한 공고를 보여주니까 거기서 한 두개정도 보고 지원을 한다음에 맞춤알바로 넘어가고 맞춤알바에서 너무 없으면 전체 검색으로 간다.</li>
+<li><strong class="post-strong">&lt;스크랩&gt;</strong>스크랩 기능은 언제 사용하냐면 통화가 어려울 때는 스크랩을 하고 다음 날 통화를 한다. 스크랩은 2~3개 정도 하는 것 같다.<br>스크랩한 것들은 지원을 하는 건가요? 장소를 잊어버릴 때 쯤에 스크랩을 본다. 면접기회를 받은 경우 스크랩을 한다. 스크랩 기능 편리한 것 같다.</li>
+</ol>
+<h2 id="기대하는-기능"><a href="#기대하는-기능" class="headerlink" title="기대하는 기능"></a>기대하는 기능</h2><ol>
+<li>중복 공고 미노출</li>
+<li>초등학생 방학 계획표처럼 원 모양의 그래프를 그리고 내가 알바를 하면 무슨 일을 하게 되는가를 한 눈에 보고싶다.<br>보통 음식점을 가면 뻔하겠지만 서빙 하겠지, 설거지 할 수도 있고, 음식점에 할 일이 많은데 알바생에게 무슨 포지션을 맡길지느 정확하게 안 알려주는 것 같아요.</li>
+<li>실제로 공고가 올라와있는데 마감되있는 경우가 엄청 많다. 알바가 구해졌으면 무조건 마감을 할 수 있게 그런 시스템이 있었으면 좋겠다. 몇년동안 마감된 알바공고를 보고 전화를 100번도 넘게 한 것 같다. 어느정도냐면 한 지역에 공고 100개가 올라오면 그 중에 30개는 마감된 것이다. 그리고 시간대가 다른 경우도 많아서 10개 중에 7개는 틀리다. 이러한 이유때문에 쉽고 빠르게 찾으려고 이용하는 서비스에서 1시간~2시간이 걸리게 된다.</li>
+<li>스크랩 해놓은 것끼리 누르면 비교를 하는 기능이 있으면 괜찮을 것 같다. 근데 알바는 사람따라 다르기 때문에 그 비교하는 객관적인 수치가 없으면 어려울 것 같다.</li>
+</ol>
+
+        </div>
+        <footer class="article-footer">
+            
+
+
+
+    <a data-url="http://mikkeller.github.io/2018/04/04/CustomJob/" data-id="cjfltsojo0000u3h1gkbnmxc1" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+<script>
+    (function ($) {
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+</script>
+
+        </footer>
+    </div>
+</article>
+
+    <section id="comments">
+    
+        
+    <div id="disqus_thread">
+        <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
+
+    
+    </section>
+
+
+                        </div>
+                    </section>
+                    <aside id="sidebar">
+    <a class="sidebar-toggle" title="Expand Sidebar"><i class="toggle icon"></i></a>
+    <div class="sidebar-top">
+        <p>follow:</p>
+        <ul class="social-links">
+            
+                
+                <li>
+                    <a class="social-tooltip" title="github" href="https://github.com/mikkeller" target="_blank">
+                        <i class="icon fa fa-github"></i>
+                    </a>
+                </li>
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="instagram" href="/" target="_blank">
+                        <i class="icon fa fa-instagram"></i>
+                    </a>
+                </li>
+                
+            
+                
+                <li>
+                    <a class="social-tooltip" title="facebook" href="/" target="_blank">
+                        <i class="icon fa fa-facebook"></i>
+                    </a>
+                </li>
+                
+            
+        </ul>
+    </div>
+    
+        
+<nav id="article-nav">
+    
+    
+        <a href="/2018/04/01/first-p/" id="article-nav-older" class="article-nav-link-wrap">
+        <strong class="article-nav-caption">older</strong>
+        <p class="article-nav-title">값, 식, 문(표현과 연산자)</p>
+        <i class="icon fa fa-chevron-left" id="icon-chevron-left"></i>
+        </a>
+    
+</nav>
+
+    
+    <div class="widgets-container">
+        
+            
+                
+
+            
+                
+    <div class="widget-wrap">
+        <h3 class="widget-title">recents</h3>
+        <div class="widget">
+            <ul id="recent-post" class="">
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2018/04/04/CustomJob/" class="thumbnail">
+    
+    
+        <span class="thumbnail-image thumbnail-none"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"></p>
+                            <p class="item-title"><a href="/2018/04/04/CustomJob/" class="title">패턴분석</a></p>
+                            <p class="item-date"><time datetime="2018-04-04T04:00:00.000Z" itemprop="datePublished">2018-04-04</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
+                            <a href="/2018/04/01/first-p/" class="thumbnail">
+    
+    
+        <span class="thumbnail-image thumbnail-none"></span>
+    
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"></p>
+                            <p class="item-title"><a href="/2018/04/01/first-p/" class="title">값, 식, 문(표현과 연산자)</a></p>
+                            <p class="item-date"><time datetime="2018-04-01T04:00:00.000Z" itemprop="datePublished">2018-04-01</time></p>
+                        </div>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+
+            
+                
+
+            
+                
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">archives</h3>
+        <div class="widget">
+            <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/04/">April 2018</a><span class="archive-list-count">2</span></li></ul>
+        </div>
+    </div>
+
+
+            
+                
+
+            
+                
+
+            
+                
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">links</h3>
+        <div class="widget">
+            <ul>
+                
+                    <li>
+                        <a href="http://hexo.io">Hexo</a>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+
+
+            
+        
+    </div>
+</aside>
+                </div>
+            </div>
+        </div>
+        <footer id="footer">
+    <div class="container">
+        <div class="container-inner">
+            <a id="back-to-top" href="javascript:;"><i class="icon fa fa-angle-up"></i></a>
+            <div class="credit">
+                <h1 class="logo-wrap">
+                    <a href="/" class="logo"></a>
+                </h1>
+                <p>&copy; 2018 Myeongwook Kim</p>
+                <p>Powered by <a href="//hexo.io/" target="_blank">Hexo</a>. Theme by <a href="//github.com/ppoffice" target="_blank">PPOffice</a></p>
+            </div>
+        </div>
+    </div>
+</footer>
+        
+    
+    <script>
+    var disqus_shortname = 'hexo-theme-hueman';
+    
+    
+    var disqus_url = 'http://mikkeller.github.io/2018/04/04/CustomJob/';
+    
+    (function() {
+    var dsq = document.createElement('script');
+    dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+    </script>
+
+
+
+
+    
+        <script src="/libs/lightgallery/js/lightgallery.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-thumbnail.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-pager.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-autoplay.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-fullscreen.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-zoom.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-hash.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-share.min.js"></script>
+        <script src="/libs/lightgallery/js/lg-video.min.js"></script>
+    
+    
+        <script src="/libs/justified-gallery/jquery.justifiedGallery.min.js"></script>
+    
+    
+
+
+
+<!-- Custom Scripts -->
+<script src="/js/main.js"></script>
+
+    </div>
+</body>
+</html>
