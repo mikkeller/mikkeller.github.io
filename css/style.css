@@ -1492,6 +1492,11 @@ a.article-title:hover {
   font-weight: bold;
   color: #f47920;
 }
+.person__logic {
+  padding-left: 10px;
+  font-size: 90%;
+  color: #666;
+}
 #comments {
   padding: 30px 30px 20px;
 }
