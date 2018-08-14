@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://mikkeller.github.io/"/>
-  <updated>2018-08-14T01:44:32.503Z</updated>
+  <updated>2018-08-14T05:47:45.601Z</updated>
   <id>http://mikkeller.github.io/</id>
   
   <author>
@@ -21,9 +21,17 @@
     <link href="http://mikkeller.github.io/2018/08/14/Start/"/>
     <id>http://mikkeller.github.io/2018/08/14/Start/</id>
     <published>2018-08-14T01:34:48.000Z</published>
-    <updated>2018-08-14T01:44:32.503Z</updated>
+    <updated>2018-08-14T05:47:45.601Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="맨오브라만차"><a class="markdownIt-Anchor" href="#맨오브라만차"></a> 맨오브라만차</h1><div class="video-container"><iframe src="//www.youtube.com/embed/NmJN0L2PdOk" frameborder="0" allowfullscreen></iframe></div><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">var Test = function() &#123;</span><br><span class="line"></span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure><ul><li>이렇게 하는 거군요.</li></ul>]]></content>
     
     <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;맨오브라만차&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#맨오브라만차&quot;&gt;&lt;/a&gt; 맨오브라만차&lt;/h1&gt;
+&lt;div class=&quot;video-container&quot;&gt;&lt;iframe src=&quot;//www.youtube.com/emb
+      
     
     </summary>
     
