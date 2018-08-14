@@ -3,28 +3,28 @@
 <head>
     <meta charset="utf-8">
     
-    <title>_Start | Mikkeller Script</title>
+    <title>Webpack | Mikkeller Script</title>
     
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     
         <meta name="keywords" content="" />
     
-    <meta name="description" content="맨오브라만차  123var Test = function() &amp;#123;&amp;#125;;  이렇게 하는 거군요.">
+    <meta name="description" content="Webpack develop config  npm init -y 로 package.json 만들고 시작 npm i -D babel babel-cli babel-loader babel-preset-env webpack webpack-cli style-loader css-loader sass-loader mini-css-extract-plugin 로 설치한다">
 <meta name="keywords" content="javascript, script, work, front-end">
 <meta property="og:type" content="article">
-<meta property="og:title" content="_Start">
-<meta property="og:url" content="http://mikkeller.github.io/2018/08/14/Start/index.html">
+<meta property="og:title" content="Webpack">
+<meta property="og:url" content="http://mikkeller.github.io/2018/08/14/Webpack/index.html">
 <meta property="og:site_name" content="Mikkeller Script">
-<meta property="og:description" content="맨오브라만차  123var Test = function() &amp;#123;&amp;#125;;  이렇게 하는 거군요.">
+<meta property="og:description" content="Webpack develop config  npm init -y 로 package.json 만들고 시작 npm i -D babel babel-cli babel-loader babel-preset-env webpack webpack-cli style-loader css-loader sass-loader mini-css-extract-plugin 로 설치한다">
 <meta property="og:locale" content="en">
-<meta property="og:image" content="http://image.alba.kr/event/495/pc_event_head.jpg">
-<meta property="og:updated_time" content="2018-08-14T06:06:41.004Z">
+<meta property="og:image" content="https://webpack.github.io/assets/what-is-webpack.png">
+<meta property="og:updated_time" content="2018-08-14T06:36:36.615Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="_Start">
-<meta name="twitter:description" content="맨오브라만차  123var Test = function() &amp;#123;&amp;#125;;  이렇게 하는 거군요.">
-<meta name="twitter:image" content="http://image.alba.kr/event/495/pc_event_head.jpg">
+<meta name="twitter:title" content="Webpack">
+<meta name="twitter:description" content="Webpack develop config  npm init -y 로 package.json 만들고 시작 npm i -D babel babel-cli babel-loader babel-preset-env webpack webpack-cli style-loader css-loader sass-loader mini-css-extract-plugin 로 설치한다">
+<meta name="twitter:image" content="https://webpack.github.io/assets/what-is-webpack.png">
     
-    <link rel="canonical" href="http://mikkeller.github.io/2018/08/14/start/"/>
+    <link rel="canonical" href="http://mikkeller.github.io/2018/08/14/webpack/"/>
 
     
 
@@ -135,18 +135,18 @@
                         <div class="main-body-header">
     <h1 class="header">
     
-    <a class="page-title-link" href="/categories/Programming/">Programming</a><i class="icon fa fa-angle-right"></i><a class="page-title-link" href="/categories/Programming/JavaScript/">JavaScript</a>
+    <a class="page-title-link" href="/categories/Config/">Config</a><i class="icon fa fa-angle-right"></i><a class="page-title-link" href="/categories/Config/Webpack/">Webpack</a>
     </h1>
 </div>
                         <div class="main-body-content">
-                            <article id="post-Start" class="article article-single article-type-post" itemscope itemprop="blogPost">
+                            <article id="publish-Webpack" class="article article-single article-type-publish" itemscope itemprop="blogPost">
     <div class="article-inner">
         
             <header class="article-header">
                 
     
         <h1 class="article-title" itemprop="name">
-        _Start
+        Webpack
         </h1>
     
 
@@ -156,8 +156,8 @@
             <div class="article-meta">
                 
     <div class="article-date">
-        <a href="/2018/08/14/Start/" class="article-date">
-            <time datetime="2018-08-14T01:34:48.000Z" itemprop="datePublished">2018-08-14</time>
+        <a href="/2018/08/14/Webpack/" class="article-date">
+            <time datetime="2018-08-14T06:33:43.000Z" itemprop="datePublished">2018-08-14</time>
         </a>
     </div>
 
@@ -166,11 +166,41 @@
         
         
         <div class="article-entry" itemprop="articleBody">
-            <h1 id="맨오브라만차"><a class="markdownIt-Anchor" href="#맨오브라만차"></a> 맨오브라만차</h1>
-<div class="video-container"><iframe src="//www.youtube.com/embed/NmJN0L2PdOk" frameborder="0" allowfullscreen></iframe></div>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">var Test = function() &#123;</span><br><span class="line"></span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+            <h1 id="webpack-develop-config"><a class="markdownIt-Anchor" href="#webpack-develop-config"></a> Webpack develop config</h1>
 <ul>
-<li>이렇게 하는 거군요.</li>
+<li>npm init -y 로 package.json 만들고 시작</li>
+<li>npm i -D babel babel-cli babel-loader babel-preset-env webpack webpack-cli style-loader css-loader sass-loader mini-css-extract-plugin 로 설치한다.</li>
+<li>root에 .babelrc 파일 생성(babel사용) 아래와 같이 파일 내용을 작성 해준다.</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    &quot;presets&quot;: [</span><br><span class="line">        [&quot;env&quot;]</span><br><span class="line">    ]</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<ul>
+<li>root에 .webpack.config.js 파일 생성(webpack사용) 아래와 같이 파일 내용을 작성 해준다.</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br></pre></td><td class="code"><pre><span class="line">const path = require(&apos;path&apos;);</span><br><span class="line">const MiniCssExtractPlugin = require(&apos;mini-css-extract-plugin&apos;); // sass를 css로 뱉어주는 plugin</span><br><span class="line">const UglifyJSPlugin = require(&apos;uglifyjs-webpack-plugin&apos;); // uglifyjs plugin - js 용량 압축 </span><br><span class="line"></span><br><span class="line">module.exports = &#123;</span><br><span class="line">    mode: &apos;development&apos;, // webpack4에서 추가되었습니다. mode가 development면 개발용, production이면 배포용입니다. 배포용 일 경우에는 알아서 최적화가 적용됩니다. 따라서 기존 최적화플러그인들이 대량으로 호환되지 않습니다.</span><br><span class="line">    entry: &apos;./src/index.js&apos;,</span><br><span class="line">    output: &#123;</span><br><span class="line">        path: path.resolve(__dirname, &apos;public&apos;),</span><br><span class="line">        filename: &apos;index.bundle.js&apos;</span><br><span class="line">    &#125;,</span><br><span class="line">    module: &#123;</span><br><span class="line">        rules: [</span><br><span class="line">            &#123;</span><br><span class="line">                test: /\.scss$/,</span><br><span class="line">                use: [</span><br><span class="line">                    // webpack4에서는 extract-text-webpack-plugin이 아직 적용되지 않았다.</span><br><span class="line">                    // mini-css-extract-plugin로 대체하여 sass를 내부 style로 번들시키지 않고 css 파일로 별도 분리시켜준다.</span><br><span class="line">                    MiniCssExtractPlugin.loader, </span><br><span class="line">                    &#123; loader: &apos;css-loader&apos; &#125;,</span><br><span class="line">                    &#123; loader: &apos;sass-loader&apos; &#125;</span><br><span class="line">                ],</span><br><span class="line">            &#125;,</span><br><span class="line">            &#123;</span><br><span class="line">                test: /\.js$/,</span><br><span class="line">                loader: &apos;babel-loader&apos;,</span><br><span class="line">                exclude: /node_modules/</span><br><span class="line">            &#125;</span><br><span class="line">        ]</span><br><span class="line">    &#125;,</span><br><span class="line">    optimization: &#123;</span><br><span class="line">        minimizer: [</span><br><span class="line">            new UglifyJSPlugin()</span><br><span class="line">        ]</span><br><span class="line">    &#125;,</span><br><span class="line">    plugins: [</span><br><span class="line">        new MiniCssExtractPlugin(&#123;</span><br><span class="line">            filename: &apos;styles.css&apos;</span><br><span class="line">        &#125;)</span><br><span class="line">    ]</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+<ul>
+<li>src 폴더에 있는 index.js를 index.bundle.js로 번들시킬 거니까 src 폴더도 만들어주고 index.js도 만들어줍니다.</li>
+<li>package.json에 script를 추가해줍니다. npm run start를 입력하면, 이제 webpack을 watch 시킬 수 있습니다.</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&quot;start&quot;: &quot;webpack --mode=development --watch&quot;,</span><br></pre></td></tr></table></figure>
+<h1 id="d2coding-ligatures"><a class="markdownIt-Anchor" href="#d2coding-ligatures"></a> D2Coding ligatures</h1>
+<p>D2Coding 공식 홈페이지: <a href="https://github.com/naver/d2codingfont" target="_blank">https://github.com/naver/d2codingfont</a></p>
+<h2 id="설정방법"><a class="markdownIt-Anchor" href="#설정방법"></a> 설정방법</h2>
+<p>intelliJ에 개발 font 사용하기(D2Coding)</p>
+<ol>
+<li>Settings &gt; Editor &gt; Colors &amp; Fonts &gt; Font로 이동합니다.</li>
+<li>font를 'D2Coding-Ligatures’로 변경합니다.</li>
+<li>하단의 ‘Enable font ligatures’ 체크박스를 선택합니다.</li>
+</ol>
+<br>
+<br>
+<br>
+<br>
+<br>
+<h1 id="현재-설정"><a class="markdownIt-Anchor" href="#현재-설정"></a> 현재 설정</h1>
+<ul>
+<li>babel</li>
+<li>sass(css 파일로 변환하여 붙게 작업)</li>
+<li>bundling(아직 Module 나누기 전)</li>
 </ul>
 
         </div>
@@ -179,7 +209,7 @@
 
 
 
-    <a data-url="http://mikkeller.github.io/2018/08/14/Start/" data-id="cjktc7ow40000yyh1uxj7lrtc" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="http://mikkeller.github.io/2018/08/14/Webpack/" data-id="cjktc7ow80001yyh1wc32o1jf" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         $('body').on('click', function() {
@@ -292,16 +322,12 @@
         
 <nav id="article-nav">
     
-        <a href="/2018/08/14/Webpack/" id="article-nav-newer" class="article-nav-link-wrap">
-        <strong class="article-nav-caption">newer</strong>
-        <p class="article-nav-title">
-        
-            Webpack
-        
-        </p>
-        <i class="icon fa fa-chevron-right" id="icon-chevron-right"></i>
-    </a>
     
+        <a href="/2018/08/14/Start/" id="article-nav-older" class="article-nav-link-wrap">
+        <strong class="article-nav-caption">older</strong>
+        <p class="article-nav-title">_Start</p>
+        <i class="icon fa fa-chevron-left" id="icon-chevron-left"></i>
+        </a>
     
 </nav>
 
@@ -431,7 +457,7 @@
     var disqus_shortname = 'hexo-theme-hueman';
     
     
-    var disqus_url = 'http://mikkeller.github.io/2018/08/14/Start/';
+    var disqus_url = 'http://mikkeller.github.io/2018/08/14/Webpack/';
     
     (function() {
     var dsq = document.createElement('script');
