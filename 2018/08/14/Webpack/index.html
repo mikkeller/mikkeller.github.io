@@ -18,7 +18,7 @@
 <meta property="og:description" content="Webpack develop config  npm init -y 로 package.json 만들고 시작 npm i -D babel babel-cli babel-loader babel-preset-env webpack webpack-cli style-loader css-loader sass-loader mini-css-extract-plugin 로 설치한다">
 <meta property="og:locale" content="en">
 <meta property="og:image" content="https://webpack.github.io/assets/what-is-webpack.png">
-<meta property="og:updated_time" content="2018-08-15T08:19:06.790Z">
+<meta property="og:updated_time" content="2018-08-16T00:53:04.249Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Webpack ModuleBundle Config">
 <meta name="twitter:description" content="Webpack develop config  npm init -y 로 package.json 만들고 시작 npm i -D babel babel-cli babel-loader babel-preset-env webpack webpack-cli style-loader css-loader sass-loader mini-css-extract-plugin 로 설치한다">
@@ -181,7 +181,7 @@
 <li>src 폴더에 있는 index.js를 index.bundle.js로 번들시킬 거니까 src 폴더도 만들어주고 index.js도 만들어줍니다.</li>
 <li>package.json에 script를 추가해줍니다. npm run start를 입력하면, 이제 webpack을 watch 시킬 수 있습니다.</li>
 </ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&quot;start&quot;: &quot;webpack --mode=development --watch&quot;,</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&quot;start&quot;: &quot;webpack --mode=development --watch&quot;,</span><br><span class="line"></span><br><span class="line">* 위의 webpack.config.js 에 module.exports 에 있는 mode에 development라고 작성하였는데,</span><br><span class="line">package.json에서 webpack 실행 문구에 mode까지 함께 기재해주면 module.exports에서 기재하지 않아도 된다.</span><br></pre></td></tr></table></figure>
 <h1 id="d2coding-ligatures"><a class="markdownIt-Anchor" href="#d2coding-ligatures"></a> D2Coding ligatures</h1>
 <p>D2Coding 공식 홈페이지: <a href="https://github.com/naver/d2codingfont" target="_blank">https://github.com/naver/d2codingfont</a></p>
 <h2 id="설정방법"><a class="markdownIt-Anchor" href="#설정방법"></a> 설정방법</h2>
@@ -209,7 +209,7 @@
 
 
 
-    <a data-url="http://mikkeller.github.io/2018/08/14/Webpack/" data-id="cjkuv793y0001d4h1q543aq6o" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="http://mikkeller.github.io/2018/08/14/Webpack/" data-id="cjkvupht40001gzh1qnwsil1p" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         $('body').on('click', function() {
