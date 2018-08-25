@@ -7,20 +7,6 @@
     </url>
 
     <url>
-        <loc>http://mikkeller.github.io/categories/Programming/</loc>
-        <lastmod>2018-08-14T06:06:41.004Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://mikkeller.github.io/categories/Programming/JavaScript/</loc>
-        <lastmod>2018-08-14T06:06:41.004Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>http://mikkeller.github.io/categories/Config/</loc>
         <lastmod>2018-08-16T00:53:04.249Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -30,6 +16,20 @@
     <url>
         <loc>http://mikkeller.github.io/categories/Config/Webpack/</loc>
         <lastmod>2018-08-16T00:53:04.249Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://mikkeller.github.io/categories/Programming/</loc>
+        <lastmod>2018-08-25T09:03:19.888Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://mikkeller.github.io/categories/Programming/JavaScript/</loc>
+        <lastmod>2018-08-25T09:03:19.888Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
