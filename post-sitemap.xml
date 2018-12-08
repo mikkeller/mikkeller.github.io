@@ -7,6 +7,14 @@
     </url>
 
     <url>
+        <loc>http://mikkeller.github.io/2018/08/14/Webpack/</loc>
+        <lastmod>2018-12-08T15:34:34.345Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>http://mikkeller.github.io/2018/11/27/portfolio_4/</loc>
         <lastmod>2018-11-27T06:49:25.546Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -41,14 +49,6 @@
     <url>
         <loc>http://mikkeller.github.io/2018/08/14/Start/</loc>
         <lastmod>2018-09-09T06:22:35.819Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://mikkeller.github.io/2018/08/14/Webpack/</loc>
-        <lastmod>2018-08-16T00:53:04.249Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
