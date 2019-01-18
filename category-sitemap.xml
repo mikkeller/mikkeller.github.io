@@ -21,20 +21,6 @@
     </url>
 
     <url>
-        <loc>http://mikkeller.github.io/categories/Portfolio/</loc>
-        <lastmod>2018-11-27T06:49:25.546Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://mikkeller.github.io/categories/Portfolio/Publishing/</loc>
-        <lastmod>2018-11-27T06:49:25.546Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>http://mikkeller.github.io/categories/Config/</loc>
         <lastmod>2018-12-08T15:34:34.345Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -44,6 +30,27 @@
     <url>
         <loc>http://mikkeller.github.io/categories/Config/Webpack/</loc>
         <lastmod>2018-12-08T15:34:34.345Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://mikkeller.github.io/categories/Portfolio/%EC%95%8C%EB%B0%94%EC%B2%9C%EA%B5%AD/</loc>
+        <lastmod>2019-01-18T12:55:51.590Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://mikkeller.github.io/categories/Portfolio/</loc>
+        <lastmod>2019-01-18T12:58:09.630Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://mikkeller.github.io/categories/Portfolio/%EB%B2%BC%EB%A3%A9%EC%8B%9C%EC%9E%A5-%EA%B5%AC%EC%9D%B8%EA%B5%AC%EC%A7%81/</loc>
+        <lastmod>2019-01-18T12:58:09.630Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
